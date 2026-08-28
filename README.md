@@ -60,14 +60,10 @@
 - 레거시 시스템을 멈추지 않고 분리하는 백엔드 구조
 - AI coding workflow의 검증 가능성
 
-## GitHub
+## Links
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=solzip&show_icons=true&hide_title=true&hide_border=true&theme=default)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=solzip&layout=compact&hide_border=true&theme=default)
-
-</div>
+- GitHub: [github.com/solzip](https://github.com/solzip)
+- Blog: [solarchive.tistory.com](https://solarchive.tistory.com/)
 
 ---
 
