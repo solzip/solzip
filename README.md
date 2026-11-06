@@ -26,9 +26,9 @@
 - **Engineering** — 실패 조건을 먼저 정의하고, 선택한 설계의 보장 범위와 한계를 명확히 설명
 - **Learning & Growth** — 분산 시스템의 신뢰성, AI 평가, 개발 도구의 실행 안전성
 
-### 🛠️ My Skill Set
+<h3 align="center">🛠️ My Skill Set</h3>
 
-<table>
+<table align="center" width="100%">
   <tr>
     <th align="center">Backend &amp; Data</th>
     <th align="center">Applied AI &amp; Infrastructure</th>
@@ -82,13 +82,13 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/solzip/solzip/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/solzip/solzip/output/github-snake.svg" />
-    <img alt="실제 GitHub 기여 활동을 기반으로 움직이는 Snake 그래프" src="https://raw.githubusercontent.com/solzip/solzip/output/github-snake.svg" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
+    <img alt="실제 GitHub 기여 활동을 기반으로 움직이는 Snake 그래프" src="./assets/github-snake.svg" width="100%" />
   </picture>
 </p>
 
-<sub>실제 GitHub 기여 기록을 기반으로 자동 생성되는 애니메이션입니다. 워크플로 최초 성공 이후 표시됩니다. 기여 수를 인위적으로 늘리지 않습니다.</sub>
+<sub>실제 GitHub 기여 기록을 기반으로 생성하며, GitHub Actions에서 하루 한 번 갱신합니다. 이미지가 보이지 않으면 [SVG 직접 보기](./assets/github-snake.svg)를 이용해 주세요.</sub>
 
 ---
 
