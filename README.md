@@ -78,18 +78,6 @@
 | **결제·예약 MSA · 미출시** | 결제 → 발급 → 예약의 순서를 불변식으로 다루고, 거래 식별자와 보상·롤백 경로를 설계했습니다. 출시 성과로 표현하지 않습니다. |
 | **ERP MSA 재설계 · 설계 채택** | Django 레거시의 도메인 경계를 분석하고 19개 서비스 단위의 구조를 제안했습니다. 설계 채택과 실제 운영 전환은 구분합니다. |
 
-### 🌱 Contribution Garden
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/github-snake.svg" />
-    <img alt="실제 GitHub 기여 활동을 기반으로 움직이는 Snake 그래프" src="./assets/github-snake.svg" width="100%" />
-  </picture>
-</p>
-
-<sub>실제 GitHub 기여 기록을 기반으로 생성하며, GitHub Actions에서 하루 한 번 갱신합니다. 이미지가 보이지 않으면 [SVG 직접 보기](./assets/github-snake.svg)를 이용해 주세요.</sub>
-
 ---
 
 <p align="center">
