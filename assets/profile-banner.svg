@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="조윤솔, 백엔드 엔지니어. 안정적인 시스템을 설계하고 검증합니다.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0D1727"/><stop offset="100%" stop-color="#1A3453"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#61C4FF" stop-opacity="0.05"/><stop offset="100%" stop-color="#61C4FF" stop-opacity="0.5"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0 L0 0 0 40" stroke="#AEC7E5" stroke-width="0.6" fill="none" opacity="0.11"/></pattern>
+  </defs>
+  <rect width="1200" height="340" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="22" fill="url(#grid)"/>
+  <path d="M650 0 L1200 0 L1200 340 L740 340Z" fill="#FFFFFF" opacity="0.035"/>
+  <path d="M0 305 L1200 280 L1200 340 L0 340Z" fill="#61C4FF" opacity="0.075"/>
+  <rect x="64" y="65" width="5" height="203" rx="2.5" fill="#61C4FF"/>
+  <g font-family="Noto Sans CJK KR, Apple SD Gothic Neo, Nanum Gothic, sans-serif">
+    <text x="91" y="95" font-size="18" font-weight="650" fill="#61C4FF" letter-spacing="4">BACKEND ENGINEER</text>
+    <text x="88" y="175" font-size="64" font-weight="780" fill="#F5FAFF">조윤솔</text>
+    <text x="91" y="225" font-size="24" font-weight="500" fill="#AEC7E5">안정적인 시스템을 설계하고 검증합니다.</text>
+    <text x="91" y="282" font-size="15" font-weight="600" fill="#AEC7E5" letter-spacing="1.8">CORRECTNESS   /   RELIABILITY   /   APPLIED AI</text>
+  </g>
+  <g stroke="#61C4FF" fill="none" stroke-width="1.5" opacity="0.58">
+    <circle cx="993" cy="169" r="91"/><circle cx="993" cy="169" r="59"/><circle cx="993" cy="169" r="28"/>
+    <path d="M846 169 H901 M1085 169 H1149 M993 23 V78 M993 260 V315"/>
+    <path d="M926 103 L902 78 M1061 103 L1086 78 M925 235 L900 260 M1061 235 L1086 260" stroke="url(#line)"/>
+    <path d="M901 169 H965 L993 141 M1021 169 H1085"/>
+  </g>
+  <g fill="#61C4FF">
+    <circle cx="993" cy="169" r="7"/><circle cx="901" cy="169" r="5"/><circle cx="1085" cy="169" r="5"/>
+    <circle cx="993" cy="78" r="5"/><circle cx="993" cy="260" r="5"/><circle cx="926" cy="103" r="4"/><circle cx="1061" cy="235" r="4"/>
+  </g>
+  <rect x="12" y="12" width="1176" height="316" rx="16" fill="none" stroke="#61C4FF" stroke-width="1" opacity="0.09"/>
+</svg>
