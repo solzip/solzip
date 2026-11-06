@@ -59,21 +59,21 @@
   </tr>
 </table>
 
-### 📂 Featured Projects
+### 🔎 대표 기술 사례 — 문제와 검증 근거
 
-| 공개 프로젝트 | 기술적 문제와 접근 |
+| 사례 | 핵심 설계 판단 | 확인할 자료 |
+| :--- | :--- | :--- |
+| **[Agent Diary](https://github.com/solzip/agent-diary)**<br/>Python · 동시성 | 독립 프로세스의 기록 유실을 재현한 뒤 파일별 잠금·원자적 교체·부분 실패 복구를 적용 | [장애 재현·설계](https://github.com/solzip/agent-diary/blob/main/docs/ARCHITECTURE.md#5-two-hooks-can-end-at-the-same-moment) · [CI 실행 결과](https://github.com/solzip/agent-diary/actions/runs/32324194385) |
+| **[CodeFleet](https://github.com/solzip/CodeFleet)**<br/>Node.js · AI 검증 | AI의 완료 주장과 실제 실행 결과를 분리하고 계약·승인·검증 증거에 따라 결과를 판정 | [아키텍처](https://github.com/solzip/CodeFleet/blob/main/docs/product-completion/architecture.md) · [검증 및 한계](https://github.com/solzip/CodeFleet/blob/main/docs/product-completion/progress.md) |
+| **결제 게이트웨이 · 실운영**<br/>외부 연동 · 장애 격리 | 외부 송신 실패가 확정된 결제 상태를 변경하지 않도록 내부 상태와 송신 결과를 분리 | [설계 판단 사례](docs/case-studies/payment-state-isolation.md) *(원본 소스 비공개)* |
+| **기업용 AI 상담 · STG 파일럿**<br/>Java/Spring · 인가 | 사용자 정보 존재와 매장 소속 권한을 별도 계약으로 분리하고, 근거가 없는 오류코드 설명을 제한 | [설계 판단 사례](docs/case-studies/ai-authorization-and-evidence.md) *(원본 소스 비공개)* |
+
+<sub>공개 프로젝트의 소스·CI와 실무 프로젝트의 공개용 설계 요약은 **증거의 종류가 다릅니다**. 실무 상세 문서는 코드나 운영 원본을 공개하지 않고 기술적 판단과 한계를 설명합니다.</sub>
+
+### 🏢 그 밖의 실무 경험
+
+| 영역 · 진행 단계 | 집중한 문제 |
 | :--- | :--- |
-| **[Agent Diary](https://github.com/solzip/agent-diary)**<br/>Python · CLI · Concurrency | Claude Code·Codex 작업 기록을 보존하는 도구입니다. 멀티프로세스에서 발생한 기록 유실을 재현하고 파일 잠금, 원자적 교체, 부분 실패 복구 및 독립 프로세스 회귀 테스트로 대응했습니다. [아키텍처](https://github.com/solzip/agent-diary/blob/main/docs/ARCHITECTURE.md) |
-| **[CodeFleet](https://github.com/solzip/CodeFleet)**<br/>Node.js · AI Orchestration | AI의 완료 주장과 실제 실행 증거를 분리합니다. 작업 계약, 변경 범위, 승인 경계와 검증·복구 흐름을 구현하며 검증된 범위와 미완료 기능을 문서로 구분합니다. [기술 문서](https://github.com/solzip/CodeFleet/blob/main/docs/product-completion/architecture.md) |
-
-### 🏢 실무에서 다룬 문제들
-
-> 업무 코드와 고객 데이터는 비공개로 유지합니다. 아래는 기술적 판단을 설명할 수 있는 범위의 요약입니다.
-
-| 영역 · 단계 | 설계와 검증에서 집중한 문제 |
-| :--- | :--- |
-| **결제 게이트웨이 · 실운영** | 외부 본사 API 장애가 내부 결제 확정 상태를 훼손하지 않도록 결제 상태와 송신 결과를 분리하고, 타임아웃 및 감사 기록으로 실패를 추적했습니다. |
-| **기업용 AI 상담 · 사내 STG 파일럿** | Java/Spring 기반 RAG·업무 조회 API, 매장 소속 권한 검증, 근거 없는 오류코드 답변 차단, 평가 및 배포 확인 절차를 구현했습니다. |
 | **사내 기부 키오스크 · 파일럿** | 외부 HR 정보 연동에서 개인정보 저장을 최소화하고, 동시 기부 집계의 트랜잭션·잠금 문제를 개선했습니다. |
 | **결제·예약 MSA · 미출시** | 결제 → 발급 → 예약의 순서를 불변식으로 다루고, 거래 식별자와 보상·롤백 경로를 설계했습니다. 출시 성과로 표현하지 않습니다. |
 | **ERP MSA 재설계 · 설계 채택** | Django 레거시의 도메인 경계를 분석하고 19개 서비스 단위의 구조를 제안했습니다. 설계 채택과 실제 운영 전환은 구분합니다. |
